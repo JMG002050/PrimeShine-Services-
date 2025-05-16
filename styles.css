@@ -28,8 +28,6 @@ body {
     gap: 20px;
     list-style: none;
     margin-right: 20px;
-   
-    /* question if this is the best or edit the li instead */
 }
 
 .menu li {
@@ -106,18 +104,15 @@ body {
     gap: 20px;
     color: #2C3E50;
     background-color: #E9F2FD;
-    /* border-top: 1px solid #E9F2FD; */
 }
 
 .ima img {
     width: 200px;
     height: 130px;
-    /* display: block; */
     background-color: #E9F2FD;
-    /* border-radius: 20%; or 100% works too */
     padding-bottom: 30px;
     object-fit: contain;  
-    object-position: center; /* ✅ shows full image */
+    object-position: center;
     transition: transform 0.3s ease;
 }
 
@@ -141,31 +136,27 @@ body {
 }
 
 .we-do {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    color: #2C3E50;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 20px 0px;
 }
+
+.serv {
+  background-color: #E9F2FD;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
 
 .serv img {
-    width: 200px; /* edit these when ready*/
-    height: 130px;
-    /* display: block; */
-    /* background-color: #E9F2FD; */
-    /* border-radius: 20%; or 100% works too */
-    /* padding-bottom: 30px; */
+    width: 300px; 
+    height: 100px;
     object-fit: contain;  
-    object-position: center; /* ✅ shows full image */
+    object-position: center; 
     transition: transform 0.3s ease;
-    margin-top: 60px;
-    margin-bottom: 30px;
-}
-
-.serv p {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    background-color: #E9F2FD;
-    padding: 20px;
+    padding: 30px;
 }
