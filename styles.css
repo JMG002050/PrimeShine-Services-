@@ -92,7 +92,6 @@ body {
   font-size: 25px;
 }
 
-
 .choose-us {
   padding: 40px;
   height: 100%;
@@ -151,7 +150,6 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 text-align: center;
 }
 
-
 .serv img {
   width: 300px; 
   height: 100px;
@@ -166,6 +164,7 @@ text-align: center;
 .test-title {
   display: flex;
   justify-content: center;
+  border-top: 1px solid #4A90E2;
 }
 
 .test-title h2 {
@@ -182,8 +181,9 @@ text-align: center;
   
   gap: 60px;
   flex-wrap: wrap; 
-  padding: 30px 20px;
+  padding: 90px 20px;
   text-align: center;
+  border-bottom: 1px solid #4A90E2;
 }
 
 .here {
@@ -211,16 +211,17 @@ text-align: center;
 }
 
 .star {
-  height: 0px;
-  width: 0px;
-  padding: 0;
+  width: 100px;
+  height: auto;
+  margin: 10px 0;
 }
+
 
 /* GET A QUOTE FORM  */
 .quote {
   display: flex;
   justify-content: center;
-  margin: 4rem 0rem;
+  margin: 3rem 0rem 2rem 0rem;
 }
 
 .quote h2 {
@@ -232,13 +233,12 @@ text-align: center;
 .form-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
   background-color: #ffffff;
   padding: 2rem;
   color: #000000;
@@ -251,7 +251,6 @@ text-align: center;
   width: 600px;
   gap: 1rem;
 }
-
 
 .form input,
 .form textarea {
@@ -268,20 +267,114 @@ text-align: center;
   border-color: #4A90E2;
 }
 
-
 .form button {
-  padding: 0.75rem 1rem;
+  max-width: 100%;
+  padding: 10px;
   background-color: #4A90E2;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  color: white;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: 'Inter';
+  font-weight: 700;
 }
 
 .form button:hover {
   background-color: #357ABD;
 }
+
+
+/* FOOTER SECTION */
+.elpie {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  justify-items: center;
+  gap: 2rem;
+  padding: 6rem;
+  background-color: #f8f9fb;
+  text-align: center;
+  background-color: #2C3E50;
+}
+
+.section {
+  font-family: 'Inter', sans-serif;
+  color: #E9F2FD;
+  line-height: 2.5;
+  text-align: left;
+}
+
+.section li {
+  list-style: none;
+}
+
+.section a {
+  text-decoration: none;
+  color: #E9F2FD;
+}
+
+.section h4 {
+  border-bottom: 1px solid #E9F2FD;
+}
+
+
+/* COPYRIGHT SECTION */
+.copyright {
+  background-color: #2C3E50;
+  font-family: 'Inter', sans-serif;
+  color: #E9F2FD;
+  border-top: 1px solid #E9F2FD;
+  padding-top: 2px;
+}
+
+
+/*                       MEDIA QUERY                         */
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .hero img {
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  .hero-text button {
+    margin-bottom: 40px;
+    width: 50%;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .elpie {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .we-do {
+    grid-template-columns: 1fr;
+  }
+
+  .choose-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
 
