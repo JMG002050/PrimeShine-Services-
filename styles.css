@@ -220,15 +220,25 @@ text-align: center;
 .quote {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin: 4rem 0rem;
+}
 
+.quote h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  color: #2C3E50;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   background-color: #ffffff;
   padding: 2rem;
   color: #000000;
@@ -236,7 +246,9 @@ text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-family: 'Inter', sans-serif;
-  width: 300px;
+  color: #2C3E50;
+  font-weight: 600;
+  width: 600px;
   gap: 1rem;
 }
 
