@@ -5,7 +5,7 @@ Built as a project during my Full-Stack Engineer learning path using HTML and CS
 
 ## 🌐 Live Demo
 
-[View Website](https://yourusername.github.io/Prime-Shine/)  
+[View Website](https://jmg002050.github.io/PrimeShine-Services-/)  
 *(Replace with your actual GitHub Pages link)*
 
 ## 🧰 Technologies Used
